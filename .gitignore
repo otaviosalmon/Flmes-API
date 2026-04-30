@@ -1,0 +1,39 @@
+# ─── CHAVES DE API — NUNCA suba isso ────────────────────────────────────────
+lib/core/secrets.dart
+google-services.json
+GoogleService-Info.plist
+.env
+
+# ─── Flutter / Dart ──────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.g.dart
+
+# ─── Firebase gerado ─────────────────────────────────────────────────────────
+lib/firebase_options.dart
+
+# ─── IDEs ────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+
+# ─── iOS ─────────────────────────────────────────────────────────────────────
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# ─── Android ─────────────────────────────────────────────────────────────────
+android/.gradle/
+android/local.properties
+android/key.properties
+
+# ─── macOS ───────────────────────────────────────────────────────────────────
+macos/Pods/
+
+# ─── Sistema ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
