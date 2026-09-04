@@ -124,8 +124,8 @@ flutter build web --release
 
 ## 🔗 Links
 
-- 📦 [Download APK](#) ← *veja abaixo como gerar o link*
-- 🌐 [Versão Web](#) ← *veja abaixo como publicar*
+- 📦 [Download APK](#) ← 
+- 🌐 [Versão Web](#) ← 
 
 ---
 
