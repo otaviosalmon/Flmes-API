@@ -4,16 +4,6 @@
 
 ---
 
-## 📸 Prints da Aplicação
-
-> *(Adicione aqui os prints após rodar o app — substitua os caminhos abaixo)*
-
-| Tela Inicial | Detalhes | Favoritos |
-|---|---|---|
-| ![home](prints/home.png) | ![detail](prints/detail.png) | ![favorites](prints/favorites.png) |
-
----
-
 ## 🏗️ Arquitetura
 
 ```
@@ -82,7 +72,6 @@ cd cineapp
 const String tmdbApiKey = 'SUA_CHAVE_AQUI';
 ```
 
-> ⚠️ Este arquivo já está no `.gitignore` — nunca suba sua chave para o GitHub.
 
 ### 3. Configure o Firebase
 
@@ -106,70 +95,6 @@ flutter pub get
 flutter run
 ```
 
-### 5. Gerar APK para Android
-
-```bash
-flutter build apk --release
-# APK gerado em: build/app/outputs/flutter-apk/app-release.apk
-```
-
-### 6. Gerar para Web
-
-```bash
-flutter build web --release
-# Arquivos em: build/web/
-```
-
----
-
-## 🔗 Links
-
-- 📦 [Download APK](#) ← 
-- 🌐 [Versão Web](#) ← 
-
----
-
-## 📤 Como gerar link de download do APK
-
-### Opção 1 — GitHub Releases (recomendado)
-
-```bash
-# 1. Gere o APK
-flutter build apk --release
-
-# 2. No GitHub, vá em Releases → Create a new release
-# 3. Faça upload do arquivo:
-#    build/app/outputs/flutter-apk/app-release.apk
-# 4. Publique — o link de download aparece automaticamente
-```
-
-### Opção 2 — Google Drive / Dropbox
-
-```bash
-# 1. Gere o APK
-flutter build apk --release
-
-# 2. Faça upload do APK para o Google Drive
-# 3. Clique com o botão direito → Compartilhar → Qualquer pessoa com o link
-# 4. Copie o link e cole no README
-```
-
-### Como publicar a versão Web (gratuito via Firebase Hosting)
-
-```bash
-# Instale o Firebase CLI
-npm install -g firebase-tools
-firebase login
-
-# Build e deploy
-flutter build web --release
-firebase init hosting   # aponte para a pasta build/web
-firebase deploy
-
-# Você receberá um link tipo: https://seu-projeto.web.app
-```
-
----
 
 ## 🌐 API Utilizada
 
