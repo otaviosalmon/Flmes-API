@@ -193,4 +193,4 @@ firebase deploy
 
 ## 👨‍💻 Autor
 
-**Seu Nome** — [GitHub](https://github.com/SEU_USUARIO)
+Otávio Salomão
